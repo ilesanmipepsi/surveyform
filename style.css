@@ -1,0 +1,70 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+    font-size: 16px;
+      margin: 0;
+        background-color: #f5f5f5; /* Light gray background */
+        }
+
+        #survey-form {
+          width: 100%;
+            max-width: 600px; /* Limit width on larger screens */
+              margin: 0 auto; /* Center horizontally */
+                padding: 20px;
+                  border-radius: 5px;
+                    background-color: #fff; /* White form background */
+                      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+                      }
+
+                      h1, p {
+                        text-align: center;
+                          margin-bottom: 20px;
+                          }
+
+                          label {
+                            display: block;
+                              margin-bottom: 5px;
+                                font-weight: bold;
+                                }
+
+                                input, textarea, select {
+                                  width: 100%;
+                                    padding: 10px;
+                                      border: 1px solid #ccc;
+                                        border-radius: 3px;
+                                          box-sizing: border-box; /* Ensure consistent sizing */
+                                            margin-bottom: 10px;
+                                            }
+
+                                            fieldset {
+                     margin-bottom: 20px;
+                     border: none; /* Remove default border */
+                       }
+
+                                           legend {
+                     font-weight: bold;
+                     margin-bottom: 10px;
+                                                    }
+
+                                                    #submit {
+                    background-color: #007bff; /* Primary blue color */
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                                                            }
+
+                                                            /* Responsiveness */
+                                                            @media (max-width: 768px) {
+                                                              #survey-form {
+                                                                  padding: 10px;
+                                                                    }
+
+                                                                      label {
+                                                                          margin-bottom: 3px;
+                                                                            }
+
+                                                                              input, textarea, select {
+                                                                                  margin-bottom: 5px;
+                                                                                    }
+                                                                                    }
+                                                                                    

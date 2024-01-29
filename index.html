@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Blockchain Education & Survey Form</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Blockchain Education & Career Survey Form</h1>
+    <p id="description">Please fill in your details as accurate as possible.</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id= "name-label">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      <label id="email-label">Email</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required>
+      <label id="number-label">Number</label>
+      <input type="number" id="number" name="number" min="0" max="11" placeholder="Enter your 11-digit phone number">
+      </fieldset>
+      <fieldset>
+        <label for="dropdown">In which continent do you live in?</label>
+             <select id="dropdown" name="dropdown">
+                <option value=""></option>
+        <option value="1">Africa</option>
+                         <option value="2">Antarctica</option>
+                             <option value="3">Asia</option>
+                                 <option value="4">Australia/Oceania</option>
+                                 <option value="5">Europe</option>
+                                     <option value="6">North America</option>
+                                         <option value="7">South America</option>
+      </select>
+        </fieldset>
+       <fieldset>  
+        <legend> Please specify your gender.</legend>
+      <input class="checkbox-inline" id="male-sex" name="sex-type" type="radio" checked> 
+        <label for="male-sex">Male</label>
+  <input class="checkbox-inline" id="female-sex" name="sex-type" type="radio"> 
+    <label for="female-sex">Female</label>
+</fieldset>
+  <fieldset>
+    <legend>Please specify your age</legend>
+     <span>
+     <input type="checkbox" id="less18"  name="ageRange" value="less18" class="checkbox-inline"> 
+  <label for="less18">Below 18</label>
+  </span>
+  <span>
+    <input type="checkbox" id="between18-21" name="ageRange" value="between18-21" class="checkbox-inline"> 
+    <label for="between18-21">18 - 21</label>
+    </span>
+    <span>
+    <input type="checkbox" id="between22-25" name="ageRange" value="between22-25" class="checkbox-inline"> 
+  <label for="between22-25">22 - 25</label>
+  </span>
+    <span>
+    <input type="checkbox" id="between26-30 " name="ageRange" value="between26-30" class="checkbox-inline"> 
+    <label for="between26-30">26 - 30</label>
+    </span>
+    <span>
+    <input type="checkbox" id="between31-35" name="ageRange" value="between31-35" class="checkbox-inline"> 
+    <label for="between31-35">31 - 35</label>
+    </span>
+   <span>
+    <input type="checkbox" id="between36-40" name="ageRange" value="between36-40" class="checkbox-inline"> 
+  <label for="between36-40">36 - 40</label>
+  </span>
+    <span>
+    <input type="checkbox" id="high40" name="ageRange" value="high40" class="checkbox-inline"> 
+    <label for="high40">Above 40</label>
+    </span>
+    </fieldset>  
+      <label for="country">Please specify the country you live in</label>
+    <textarea id="country" name="country" rows="3" cols="30"></textarea>
+      </fieldset>
+       <input type="submit" id="submit" value="Submit">      
+      </form>
+  </body>
+
+</html>
